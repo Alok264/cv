@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️First❤️</title>
+</head>
+<body>
+    <!--<bun topping="sesame">
+        <tomato>
+            <cheese></cheese>
+        </tomato>
+        <lettuce>
+            <sauce>
+                <meat>Lorem ipsum dolor sit amet</meat>
+            </sauce>
+        </lettuce>
+    </bun>-->
+    <table cellSpacing="30">  <!--Using table as Layout manager-->
+        <tr>
+            <td><img src="image/1.png" alt="Image not found/Alok profile image"></td>
+            <td><h1>Alok kumar</h1>
+                <p><em>Founder and CEO of <strong><a href="#">New Speaker</a></strong></em></p></td>
+        </tr>
+    </table>
+    <img src="image/1.png" alt="Image not found/Alok profile image"> <!--Alt (alternative/alternate) text is used when image is not found to display information, This text is also used for google SEO for searching the information of inage-->
+    <h1>Alok kumar</h1>
+    <p><em>Founder and CEO of <strong><a href="#">New Speaker</a></strong></em></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione adipisci ducimus in ullam officiis autem amet deserunt error incidunt consequuntur iste sunt fugiat cumque vero vel omnis sed, est rem nihil veniam voluptate quaerat dolor eaque! Totam rerum ad modi adipisci aperiam earum consectetur voluptatem ea quam, dolorem aut est?</p>
+    <hr size="3" noshade>
+    <h3>Books and Teaching</h3>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quae repellendus. Nobis in adipisci sit.</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, modi?</li>
+        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+        <ul type="circle">
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum.</li>
+        </ul>
+    </ul>
+    <hr size="3" noshade>
+    <h3>Hobbies</h3>
+    <ol>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem.</li>
+    </ol>
+    <a href="hobbies.html">My hobbies</a>
+    <a href="contact_me.html">Contact Me</a>
+    <hr size="3" noshade>
+    <center>
+        <h3>Table</h3>
+        <table border="10">
+            <thead>
+                <th>Name</th>
+                <th>Date of Birth</th>
+                <th>Address</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alok kumar</td>
+                    <td>24th March 2002</td>
+                    <td>Bhaisasur</td>
+                </tr>
+                <tr>
+                    <td>Saroj Kumari</td>
+                    <td>10th june 1992</td>
+                    <td>Singarhat</td>
+                </tr>
+                <tr>
+                    <td>Monia</td>
+                    <td>7th Marhc 1995</td>
+                    <td>KhasGang</td>
+                </tr>
+                <tr>
+                    <td>Nanhi</td>
+                    <td>4th November 2011</td>
+                    <td>Singarhat</td>
+                </tr>
+                <tr>
+                    <td>Kittu</td>
+                    <td>9th August</td>
+                    <td>Singarhat</td>
+                </tr>
+                <tr>
+                    <td>Champu</td>
+                    <td>20th March</td>
+                    <td>KhasGang</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>END</td>
+                <TD>END</TD>
+                <TD>END</TD>
+            </tfoot>
+        </table>
+        <hr size="3" noshade>
+        <h3>Skills</h3>
+        <table border="1" cellspacing="10"> <!--Example of nested Tabel tag-->
+            <tr>
+                <td>
+                    <table cellspacing="10" cellpadding="5">
+                        <tr>
+                        <td>iOS Development</td>
+                        <td>⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Photography</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Painting</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="10" cellpadding="5">
+                        <tr>
+                        <td>iOS Development</td>
+                        <td>⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Photography</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Painting</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <hr size="3" noshade>
+
+        <h3>Table rowspan and colspan</h3>
+        <table border="1">
+            <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">ID</th>
+                <th colspan="2">Membership Dates</th>
+                <th rowspan="2">Balance</th>
+            </tr>
+            <tr>
+                <th>Joined</th>
+                <th>Canceled</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Margaret Nguyen</th>
+                <td>427311</td>
+                <td><time datetime="2010-06-03">June 3, 2010</time></td>
+                <td>n/a</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <th scope="row">Edvard Galinski</th>
+                <td>533175</td>
+                <td><time datetime="2011-01-13">January 13, 2011</time></td>
+                <td><time datetime="2017-04-08">April 8, 2017</time></td>
+                <td>37.00</td>
+            </tr>
+            <tr>
+                <th scope="row">Hoshi Nakamura</th>
+                <td>601942</td>
+                <td><time datetime="2012-07-23">July 23, 2012</time></td>
+                <td>n/a</td>
+                <td>15.00</td>
+            </tr>
+            </tbody>
+        </table>
+        
+    </center>
+    <center>
+        <hr size="3" noshade>
+        <h3>Forms</h3>
+        <form action="mailto:alokraj262@gmail.com" method="post" enctype="text/plain"> <!--The action is used to refer the cotent of the form or refer the user to the address mentioned
+        in the action attribute, In this case, if we hit submit button then the First.html page will reload or being refereshed
+    The URL that processes the form submission.-->
+
+    <!--We can write action: - 
+        mailto:mail
+
+    enctype is used to inform that the data in the form is encoded in text/plain format
+    name is used to send the data with the name givn in the name section. It can be same as the attributes in table of colllection data.
+
+    Ex: - It will send the data to email as: -
+    YourName=Alok kumar
+    YourEmail=sdsadasda@vg.com
+    YourEmail=123456789
+    YourMessage=sdadsadsadsad
+    YourPreference=on
+    YourDate=2023-01-10
+
+    -->
+            <table cellspacing="20">
+                <tr>
+                    <td><label for="">Name: </label></td>
+                    <td><input type="text" name="YourName" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email: </label></td>
+                    <td><input type="email" name="YourEmail" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password: </label></td>
+                    <td><input type="password" name="YourEmail" id=""></td>
+                </tr>
+            </table><br><br>
+            <label for="">Feedback</label><br><br>
+            <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br><br>
+            <label for="">Check me</label> <input type="checkbox" name="YourPreference" id=""><br><br>
+            <input type="date" name="YourDate" id=""><br><br>
+            <input type="submit" name="">
+        </form>
+    </center>
+
+</body>
+</html>
